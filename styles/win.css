@@ -1,0 +1,42 @@
+.win {
+    padding-top: 150px;
+}
+.win_title {
+    font-size: 70px;
+    /* color: var(--color-white); */
+    font-family: var(--font-poppins);
+}
+.win_subtitle {
+    font-size: 30px;
+    font-family: var(--font-mukta);
+    /* color: var(--color-white); */
+    padding-top: 30px;
+    padding-bottom: 70px;
+    
+}
+.win_cards_row {
+    display: flex;
+    justify-content: space-between;
+}
+.win_card {
+    text-align: right;
+    
+}
+.win_card:last-child {
+    text-align: left;
+    
+}
+.win_card_title {
+    color: var(--color-accent);
+    font-family: var(--font-poppins);
+    font-size: 50px;
+}
+.win_card_subtitle {
+    font-family: var(--font-mukta);
+    color: var(--color-black-light);
+    font-size: 30px;
+    font-weight: 500;
+}
+.win_card_subtitle:last-child {
+    padding-left: 40px;
+}
